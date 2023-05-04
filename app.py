@@ -44,7 +44,7 @@ block = gr.Blocks()
 
 
 with block:
-    gr.Markdown("""<h1><center>Build Yo'own ChatGPT with OpenAI API & Gradio</center></h1>
+    gr.Markdown("""<h1><center>ChatGPT</center></h1>
     """)
     chatbot = gr.Chatbot()
     message = gr.Textbox(placeholder=prompt)
